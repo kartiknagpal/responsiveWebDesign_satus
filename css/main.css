@@ -1,0 +1,164 @@
+/* ==========================================================================
+   custom styles
+   ========================================================================== */
+   
+@import url(http://fonts.googleapis.com/css?family=Bad+Script|Caesar+Dressing|Denk+One|Autour+One);
+
+body > .header {
+	height: 130px;
+	z-index: 1030;
+	background-image: linear-gradient(to bottom, #f1f1f1, #f5f5f5);
+	-webkit-box-shadow: 0 10px 6px -6px #777;
+	-moz-box-shadow: 0 10px 6px -6px #777;
+	box-shadow: 0 5px 6px -6px #777;
+}
+
+body > .footer {
+	background-image: linear-gradient(to bottom, #212527, #24282a);
+	color: #fff;
+	margin-bottom: 20px;
+	border-radius: 6px;
+}
+.header .logo {
+	margin-left: 8%;
+}
+.header .logo .text {
+	font-family: 'Bad Script', cursive;
+	font-size: 1.1em;
+}
+.header .navbar .nav>li {
+	width: 14%;
+}
+
+a {
+	color: grey;
+}
+.header .navigation {
+	float: right;
+	width: 54%;
+	margin-right: 7%;
+}
+.header .navigation .navbar ul.nav {
+	width: 100%;
+}
+.navbar-search .search-query {
+	font-family: 'Autour One', cursive;
+}
+.top-bar {
+	height: 21px;
+}
+.top-bar img {
+	float: left;
+	margin-top: 8px;
+}
+.top-bar form.navbar-search {
+	margin-left: 40px;
+}
+.navigation .navbar {
+	margin-top: 20px;
+}
+.navbar .nav>li.active {
+	font-weight: bold;
+}
+.main-content {
+	margin: 35px 0 30px 0;
+}
+.main-content .header {
+	margin-bottom: 20px;
+}
+.main-content .header .text {
+	font-family: 'Denk One', sans-serif;
+	font-size: 3.2em;
+	margin-left: 8%;
+}
+.pagination ul>li>a:hover {
+	color: #e54b3b;
+}
+.header .pagination {
+	margin: 0;
+	margin-right: 7.5%;
+}
+.pagination li.active a {
+	color: #000;
+}
+.pagination ul>li>a {
+	background-color: #ececec;
+	border: none;
+}
+.nav-pills>.active>a {
+	color: grey;
+	background-color: transparent;
+}
+.main-content .left-col {
+	min-width: 168px;
+}
+.main-content .left-col .categories .nav li.active a {
+	font-weight: bold;
+	color: #000;
+	background-color: transparent;
+}
+.main-content .left-col .categories .nav li a {
+	border: none;
+}
+.main-content .left-col .header {
+	font-size: 1.4em;
+	font-family: 'Caesar Dressing', cursive;
+}
+
+.main-content .left-col .tags .nav-pills li {
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+.main-content .left-col .top-videos .video-container .desc {
+	width: 75%;
+}
+.main-content .right-col .img-container.span4 {
+	margin-left: 0;
+	margin-bottom: 40px;
+	min-width: 230px;
+}
+.main-content .right-col .img-container .title {
+	font-family: 'Autour One', cursive;
+}
+.main-content .right-col .img-container .sub{
+	font-family: 'Bad Script', cursive;
+}	
+	
+.main-content .right-col .footer .pagination {
+	margin-right: 11%;
+}
+
+.footer .footer-container {
+	width: 90%;
+	margin: 0 auto;
+	padding-bottom: 40px;
+	padding-top: 15px; 
+}
+.footer .footer-container .heading {
+	font-family: 'Caesar Dressing', cursive;
+	font-size: 1.7em;
+	margin: 20px 0;
+}
+.footer .footer-container .latest-pics .pic-icons {
+	float: left;
+	padding: 0 10px 5px 0;
+}
+
+
+body > .copyright {
+	font-family: 'Autour One', cursive;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
